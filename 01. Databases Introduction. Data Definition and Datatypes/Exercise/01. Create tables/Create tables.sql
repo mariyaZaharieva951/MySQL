@@ -1,0 +1,12 @@
+CREATE DATABASE minions;
+
+CREATE TABLE minions(
+	id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name VARCHAR(80),
+    age INT
+);
+
+CREATE TABLE towns (
+	town_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name VARCHAR(80)
+    );
