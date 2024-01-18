@@ -1,0 +1,4 @@
+
+ALTER TABLE users
+DROP PRIMARY KEY,
+ADD CONSTRAINT pk_use PRIMARY KEY(id,username);
